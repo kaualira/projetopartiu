@@ -1,0 +1,313 @@
+/* * Significa tudo */
+*, *::after, *::before {
+    box-sizing: border-box;
+    scroll-padding-top: 120px; /* Permite uma distância quando se clica Nav a*/
+}
+html {
+    scroll-behavior: smooth;
+}
+.saibaseupaisroll{
+    position: absolute;
+    left: 230px;
+    top: 30px;
+    text-decoration: none;
+    color: black;
+}
+.fixo {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+.indexresto {
+    z-index: -1;
+}
+body {
+    margin: 0;
+
+}
+.linharoxa {
+    height: 40px;
+    width: auto;
+    background-color: blueviolet;
+    /* position: absolute; */
+    top: 100px;
+    
+   
+    
+}
+
+.fraseajuda {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    left: 70%;
+    top: -6%;
+    font-family: 'Asap Condensed', sans-serif;;
+}
+
+.faleconoscolink {
+    text-decoration: none;
+    color: black;
+}
+
+.fone {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 7%;
+    left: 69%;
+
+}
+  
+.paginainicial {
+    transition: all .8s;
+}
+nav {
+    /* background-color: rgb(255, 255, 255); */
+    height: 100px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    
+}
+nav a {
+    
+    text-decoration: none;
+    color: #333;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    padding: .5rem .6rem; 
+    transition: all .8s; 
+}
+/* nav a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #dcdcdc;
+    border-radius: 25px;
+} */
+nav li {
+    
+    text-decoration: none;
+    color: #333;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    padding: .5rem .6rem; /* Aumenta a área de clique dos elementos Nav a*/
+    transition: all .8s; /* Permite transição suave ao posicionar o mouse sobre */
+}
+nav li:hover {
+    color: rgb(0, 0, 0);
+    background-color: #dcdcdc;
+    border-radius: 25px;
+}
+.menu {
+    height: 65%;
+    background-color: rgb(255, 255, 255);
+}
+.logo {
+    width:125px; 
+    height:125px;
+    /* margin-top: -34px;
+    margin-left: -7px; */
+    margin: 0;
+    top: 3px;
+    position: absolute;
+}
+.casa {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 58px;
+    left: 208px;
+   
+}
+.home {
+    left: 230px;
+    top:50px;
+    position: absolute;
+    font-family:'Inter', sans-serif;
+
+}
+.ping {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 58px;
+    left: 375px;
+
+}
+.saibaseupais {
+    left: 395px;
+    top:50px;
+    position: absolute;
+    font-family:'Inter', sans-serif;
+
+}
+.linhas {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 58px;
+    left: 580px;
+
+}
+.nossosprogramas {
+    left: 600px;
+    top:50px;
+    position: absolute;
+    font-family:'Inter', sans-serif;
+
+}
+.avião {
+    width: 20px; 
+    height:20px;
+    left: 780px;
+    top: 58px;
+    position: absolute;
+
+}
+.sobrenos {
+    left: 800px;
+    top:50px;
+    position: absolute;
+    font-family:'Inter', sans-serif;
+
+}
+.linhapequenaroxa {
+    width: 100%;
+    height: 7px;
+    background-color: blueviolet;
+
+}
+.confiravalores {
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 50px;
+    width: 460px;
+}
+.pdf {
+    position: absolute;
+    top: 240px;
+    left: 245px;
+    font-family:'Indie Flower', cursive;
+    font-size: 60px;
+
+}
+.bloquinhorosa {
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    top: 140px;
+    left: 750px;
+    background-color: rgb(215, 176, 238);
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.seinteressou {
+    position: absolute;
+    top: -40px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 60px;
+}
+.textointeresse {
+    position: absolute;
+    top: 90px;
+    font-size: 17px;
+    font-family:'Indie Flower', cursive;
+    width: 350px;
+    height: 400px;
+}
+.botao {
+        position: absolute;
+        top: 365px;
+        left: 100px;
+        font-family: 'Mouse Memoirs', sans-serif;
+        font-size: 20px;
+        width: 330px;
+        background-color: #9E30FF;
+        border-radius: 20px;
+        border: none;
+        width: 160px;
+        height: 70px;
+        color: rgb(255, 255, 255);
+    
+}
+footer {
+    height: 190px;
+    width: 1273px;
+    position: absolute;
+    top: 650px;
+    left: -10px;
+    background-color:blueviolet;
+    /* text-align: right;
+    display: inline-table;
+    margin: 0; */
+}
+
+
+.menuf {
+    right: 1200px;
+    position: absolute;
+    top: 650px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.paginicialf {
+    right: 1100px;
+    position: absolute;
+    top: 690px;
+    color:rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+}
+
+.saibaseuf {
+    right: 1050px;
+    position: absolute;
+    top: 715px;
+    color:rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+}
+
+.nossosf {
+    right: 1059px;
+    position: absolute;
+    top: 740px;
+    color:rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+}
+
+.sobrenosf {
+    right: 1120px;
+    position: absolute;
+    top: 765px;
+    color:rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+}
+
+.contatof {
+    right: 300px;
+    position: absolute;
+    top: 715px;
+    color:rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+}
+
+.emailf {
+    right: 300px;
+    position: absolute;
+    top: 740px;
+    color:rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+}
+
+.telefonef {
+    right: 375px;
+    position: absolute;
+    top: 765px;
+    color:rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+}

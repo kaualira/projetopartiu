@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venha nos ver!</title>
+    <!-- Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <!-- Caveat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Indie+Flower&family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@1,700&family=Caveat:wght@500&family=Indie+Flower&family=Inter:wght@500&family=Mouse+Memoirs&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="agende.css">
+</head>
+<body>
+<div class="indexheader">
+    <div class="fixo">
+        <nav>
+            <div class="linharoxa">
+                <p class="fraseajuda"> <a href="#faleconosco" title="faleconosco" class="faleconoscolink" href="#">Precisa de ajuda? Fale com a nossa Equipe!</a></p>
+                <a href="#faleconosco" title="sobrenos1"><img src="fone.png" class="fone"> </a>
+            </div>
+            <div class="menu">
+                <div class="logo">
+                    <p><a href="naoaguentomais.html" title="Partiu! - página inicial"><img src="logopartiu.png" class="logo" alt="Partiu! Intercambios"></a></p>
+                </div>
+                    <nav>
+                       <ul>  
+                            <img src="casa.png" class="casa">
+                            <a href="#paginainicial" title="Pagina Inicial" class="home"><li>Página Inicial</li></a>
+                            <img src="oo.png" class="ping">
+                            <a href="#saibaseupais1" title="saibaseupais1" class="saibaseupais"><li>Saiba seu País Ideal!</li></a>
+                            <img src="linhas2.png" class="linhas">
+                            <a href="#nossosprogramas1" title="nossosprogramas1" class="nossosprogramas"><li> Nossos Programas</li></a>
+                            <img src="avi.png" class="avião">
+                            <a href="#sobrenos1" title="sobrenos1" class="sobrenos"><li>Sobre Nós </li></a>
+                        </ul>
+                    </nav>
+            </div>
+            <div class="linhapequenaroxa"></div>
+        </nav>
+    </div>
+    <style>
+    /* Estilos com a fonte Indie Flower */
+    /* @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); */
+    
+    h1 {
+      font-family: 'Mouse Memoirs', cursive;
+      /* text-align: center; */
+      font-size: 40px;
+      /* line-height: 6px; */
+      width: 40%;
+      position: absolute;
+      top: 120px;
+      left: 160px;
+     
+    }
+    .h1s {
+      font-family: 'Mouse Memoirs', cursive;
+      /* text-align: center; */
+      font-size: 40px;
+      /* line-height: 6px; */
+      width: 50%;
+      position: absolute;
+      top: 150px;
+      left: 230px;
+     
+    }
+
+    .form-container {
+      margin: 0 auto;
+      width: 1000px; /* Aumentei a largura para acomodar duas colunas */
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:flex-start; /* Alinhar colunas */
+      column-gap: 60px;
+      position: absolute;
+      top: 240px;
+      left: 70px;
+      
+    }
+
+    .form-group {
+        width: 100%; /* Largura de cada grupo de formulário */
+  margin-bottom: 10px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .form-group select,
+    .form-group input,
+    .form-group textarea {
+      width: 100%; /* Largura dos campos de entrada */
+      padding: 10px;
+      background-color: #D9D9D9;
+      border-radius: 10px;
+      font-size: 16px;
+    }
+
+    .form-group textarea {
+      resize: vertical;
+      height: 100px;
+    }
+
+    .form-group.button-group {
+        padding: 10px 20px;
+  background-color: #9E30FF;
+  font-family: 'Indie Flower', cursive;
+  color: #f5f5f5;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Arredonda os botões */
+  width: 90px;
+  position: absolute;
+  left: 340px;
+  top: 680px;
+  margin-top: 25px;
+
+  
+       
+    }
+   
+    .icon {
+        width: 10px;
+  height: 10px;
+  margin-left: 875px;
+  margin-top: -340px;
+  border: 10px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 700px;
+  left: 100px;
+    }
+
+    .text{
+        font-size: 25px;
+    }
+     .text2{
+        font-size: 20px;
+        font-family: 'Mouse Memoirs', sans-serif;
+    }
+  </style>
+</head>
+<body>
+ <!-- <form action="https://api.sheetmonkey.io/form/mbYtSfG19Q9xYohBjw33YS" method="post"> -->
+  <h1>Marque um dia para falar</h1>
+  <h1 class="h1s"> com a gente </h1>
+
+  <div class="form-container">
+    <div class="form-column">
+      <div class="form-group">
+        <label for="first-name" class="text">Nome:</label>
+        <input type="text" id="first-name" name="first-name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="last-name"class="text">Sobrenome:</label>
+        <input type="text" id="last-name" name="last-name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email" class="text">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="phone" class="text">Telefone:</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+
+      <div class="form-group">
+        <label for="contact-method" class="text">Escolha uma forma de contato:</label>
+        <select id="contact-method" name="contact-method" required>
+          <option value="" class="text2">Selecione uma opção</option>
+          <option value="email" class="text2">E-mail</option>
+          <option value="phone" class="text2">Telefone</option>
+          <option value="whatsapp" class="text2">WhatsApp</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-column">
+      <div class="form-group">
+        <label for="cep" class="text">CEP:</label>
+        <input type="text" id="cep" name="cep" required>
+      </div>
+
+      <div class="form-group">
+        <label for="city" class="text">Cidade:</label>
+        <input type="text" id="city" name="city" required>
+      </div>
+
+      <div class="form-group">
+        <label for="street" class="text">Rua:</label>
+        <input type="text" id="street" name="street" required>
+      </div>
+
+      <div class="form-group">
+        <label for="number" class="text">Número:</label>
+        <input type="text" id="number" name="number" required>
+      </div>
+
+      <div class="form-group">
+        <label for="complement" class="text">Complemento:</label>
+        <input type="text" id="complement" name="complement">
+      </div>
+    </div>
+  </div>
+  <div >
+    <a href="agradecimento.html"><button class="form-group button-group" type="submit">Enviar</button></a>
+  </div>
+ 
+
+  </form>
+
+  <div class="icon">
+    <img src="wow!.png" alt="Intercâmbio é com a Partiu!">
+  </div>
+</div>
+<footer>
+        
+</footer>
+<p class="menuf"> Menu</p>
+
+        <p class="paginicialf"> Pagina Inicial </p>
+        <p class="saibaseuf"> Saiba seu País Ideal </p>    
+        <p class="nossosf">Nossos Programas </p>
+        <p class="sobrenosf">Sobre Nós </p>
+        <p class="contatof"> Entre em contato com o nosso suporte </p>
+        <p class="emailf"> e-mail: partiuprafora@gmail.com</p>
+        <p class="telefonef"> telefone: 9999-99999 </p>
+</body>
+</html>    
