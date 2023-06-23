@@ -827,9 +827,9 @@ main, section {
     font-family: 'Mouse Memoirs', sans-serif;
     font-size: 40px;
      top: 5850px;
-    left: 500px;
+    left: 400px;
     position: absolute;
-
+    width: 500px;
 }
 
 label {
